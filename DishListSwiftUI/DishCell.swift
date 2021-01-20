@@ -34,11 +34,11 @@ struct DishCell_Preview: PreviewProvider {
     static var previews: some View {
         
         Group {
-//            DishCell().colorScheme(.dark)
-//
-//            DishCell().previewDevice("iPhone SE")
-//
-//            DishCell().environment(\.sizeCategory, .extraSmall)
+            DishCell(dish: Dish.all()[0]).colorScheme(.dark)
+
+            DishCell(dish: Dish.all()[0]).previewDevice("iPhone SE")
+
+            DishCell(dish: Dish.all()[0]).environment(\.sizeCategory, .extraSmall)
             DishCell(dish: Dish.all()[0]).environment(\.sizeCategory, .extraLarge)
         }
     }

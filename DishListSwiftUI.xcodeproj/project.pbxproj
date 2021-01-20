@@ -14,6 +14,7 @@
 		C050879A25B89F2100E71B98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C050879925B89F2100E71B98 /* Preview Assets.xcassets */; };
 		C050879D25B89F2100E71B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C050879B25B89F2100E71B98 /* LaunchScreen.storyboard */; };
 		C05087A625B89F4E00E71B98 /* DishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05087A525B89F4E00E71B98 /* DishCell.swift */; };
+		C05087AD25B8BB3100E71B98 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05087AC25B8BB3100E71B98 /* Dish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C050879C25B89F2100E71B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C050879E25B89F2100E71B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C05087A525B89F4E00E71B98 /* DishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCell.swift; sourceTree = "<group>"; };
+		C05087AC25B8BB3100E71B98 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				C050879025B89F2000E71B98 /* AppDelegate.swift */,
 				C050879225B89F2000E71B98 /* SceneDelegate.swift */,
+				C05087AC25B8BB3100E71B98 /* Dish.swift */,
 				C05087A525B89F4E00E71B98 /* DishCell.swift */,
 				C050879425B89F2000E71B98 /* ContentView.swift */,
 				C050879625B89F2100E71B98 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C050879125B89F2000E71B98 /* AppDelegate.swift in Sources */,
+				C05087AD25B8BB3100E71B98 /* Dish.swift in Sources */,
 				C05087A625B89F4E00E71B98 /* DishCell.swift in Sources */,
 				C050879325B89F2000E71B98 /* SceneDelegate.swift in Sources */,
 				C050879525B89F2000E71B98 /* ContentView.swift in Sources */,
